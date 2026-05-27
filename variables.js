@@ -1,7 +1,7 @@
-let name = "Siphesihle";
-let age = 25;
-let isStudent = true;
+let favoriteColour = "Blue";
 
-console.log(name);
-console.log(age);
-console.log(isStudent);
+console.log(favoriteColour);
+
+favoriteColour = "Green";
+
+console.log(favoriteColour);
