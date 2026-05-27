@@ -116,3 +116,34 @@ while (cnt4 < 50) {
     }
     cnt4 += 1;
 }
+
+//Exercise 5
+let count = 1;
+do {
+    console.log(count);
+    count += 1;
+
+} while (count < 11);
+
+let count1 = 1;
+let sum3 = 0;
+do {
+    sum3 += count1;
+    count1 += 1;
+} while (count1 < 101);
+console.log("Sum is " + sum3);
+
+do {
+    let userInput = parseInt(prompt("Enter a number greater than 10: "));
+} while (userInput <= 10);
+
+
+let randomNum = Math.floor(Math.random() * 10) + 1;
+do {
+    let guessedNum = parseInt(prompt("Guess the number between 1 and 10:"));
+
+    if (guessedNum != randomNum) {
+        console.log("Incorrect guess. Please try again.");
+    }
+} while (guessedNum != randomNum);
+console.log("Your guess is correct!");
