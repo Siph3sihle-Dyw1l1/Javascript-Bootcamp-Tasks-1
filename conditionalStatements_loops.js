@@ -32,13 +32,13 @@ if (num % 2 == 0) {
     console.log("Divisible by 2.");
 } else if (num % 3 == 0) {
     console.log("Divisible by 3.");
-} else if (num % 2 == 0 && num % 3 == 0){
+} else if (num % 2 == 0 && num % 3 == 0) {
     console.log("Divisible by both.");
-}else{
+} else {
     console.log("Not divisible by 2 or 3.");
 }
 
-switch(true){
+switch (true) {
     case num % 2 == 0:
         console.log("Divisible by 2.");
         break;
@@ -53,3 +53,34 @@ switch(true){
 }
 
 // Exercise 3
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+console.log("Even number:");
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 == 0) {
+        console.log(i);
+    }
+}
+
+let sum = 0;
+
+for (let i = 1; i <= 100; i++) {
+    sum += i;
+}
+console.log("Sum of numbers from 1 to 100:", sum);
+
+const numbers = [1, 2, 3, 4, 5];
+for (let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i]);
+}
+
+const numbers2 = [3, 7, 2, 5, 10, 6];
+let max = 0;
+for (let i = 0; i < numbers2.length; i++) {
+    if (numbers2[i] > max) {
+        max = numbers2[i];
+    }
+}
+console.log("Largest number: " + max);
