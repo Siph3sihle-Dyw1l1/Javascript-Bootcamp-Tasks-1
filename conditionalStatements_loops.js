@@ -84,3 +84,35 @@ for (let i = 0; i < numbers2.length; i++) {
     }
 }
 console.log("Largest number: " + max);
+
+//Exercise 4
+let cnt = 1;
+while (cnt < 11) {
+    console.log(cnt);
+    cnt += 1;
+}
+
+console.log("Even number:");
+let cnt2 = 1;
+while (cnt2 < 21) {
+    if (cnt2 % 2 == 0) {
+        console.log(cnt2);
+    }
+    cnt2 += 1;
+}
+
+let sum2 = 0;
+let cnt3 = 1;
+while (cnt3 < 101) {
+    sum2 += cnt3;
+    cnt3 += 1;
+}
+console.log("Sum = " + sum2);
+
+let cnt4 = 0;
+while (cnt4 < 50) {
+    if (cnt4 % 5 == 0) {
+        console.log(cnt4);
+    }
+    cnt4 += 1;
+}
